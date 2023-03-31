@@ -1,0 +1,61 @@
+/*          JSON PARA TESTE
+            
+            // TODOS 
+                {
+                  products{
+                    id, name, price
+                  }
+                }
+  
+            
+
+// INSERIR
+             mutation AddProduct($product:ProductInputType){
+             createProduct(product:$product) {
+                    id, 
+                    name, 
+                    price
+                }
+             }
+
+            {
+              "product": {
+                "id": 5,
+                "name": "Costela Minga",
+                "price": 60.75
+              }
+            }
+            
+
+
+
+// ATUALIZAR
+            mutation UpdateProduct($id: Int, $product: ProductInputType) {
+            updateProduct(id: $id, product: $product) {
+              id
+              name
+              price
+            }
+          }
+
+            
+          {
+            "id": 2,
+            "product": {
+              "id": 2,
+              "name": "Mortadela",
+              "price": 3.34
+	          }
+          }
+
+
+
+// DELETAR
+            mutation DeleteProduct($id:Int){
+            deleteProduct(id:$id)
+            }
+
+            {
+            "id": 5
+            }
+          */

@@ -1,0 +1,19 @@
+﻿Roteiro Básico
+
+
+Models
+Type
+Interfaces
+Services
+
+Controllers - GraphQL não precisa (Pode apagar)
+
+Query
+Schema - POSSUI REFERENCIAS PARA QUERIES E MUTATIONS
+
+
+*ATENÇAO - CONFIGURAR STARTUP.CS => REGISTRAR DEPENDÊNCIAS PARA SCHEMA, TYPES E QUERIES
+
+Entrar no Projeto / Properties / Debug / Launch Browser digitar graphql
+
+
